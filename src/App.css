@@ -521,6 +521,24 @@ header p{
    FOOTER
 ========================== */
 
+.footer-bottom{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+    font-size:15px;
+    color:#fff;
+}
+
+.developer{
+    color:#ffd54f;
+    font-weight:700;
+}
+
+.separator{
+    color:rgba(255,255,255,.6);
+}
 footer{
 
     margin-top:60px;
